@@ -86,9 +86,9 @@ const Country = () => {
             return (
               <div 
                 key={index} 
-                className="bg-linear-to-br from-[#1b1517]/90 to-[#100b0d]/95 border border-stone-800/50 rounded-3xl p-6 flex flex-col space-y-5 hover:border-amber-500/20 hover:shadow-2xl hover:shadow-amber-500/[0.02] transition-all duration-300"
+                className="bg-linear-to-br from-[#1b1517]/90 to-[#100b0d]/95 border border-stone-800/50 rounded-3xl p-6 flex flex-col space-y-5 hover:border-amber-500/20 hover:shadow-2xl hover:shadow-amber-500/2 transition-all duration-300"
               >
-                <div className="w-full aspect-[16/10] bg-stone-950/40 rounded-2xl overflow-hidden border border-stone-900 flex items-center justify-center">
+                <div className="w-full aspect-16/10 bg-stone-950/40 rounded-2xl overflow-hidden border border-stone-900 flex items-center justify-center">
                   <img 
                     src={flags?.svg || flags?.png} 
                     alt={name?.common || "Country Flag"} 
